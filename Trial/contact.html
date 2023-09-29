@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Dark Souls</title>
+        <link href="style.css" rel="stylesheet" >
+        <!-- got from cdfonts.com -->
+        <link href="http://fonts.cdnfonts.com/css/optimus-princeps" rel="stylesheet"> 
+    </head>
+
+    <body id="container">
+        <header id="header">
+            <h1><a href="index.html">DARK SOULS</a></h1>  
+        <nav id="navigation" >
+            <ul class="flexbox">
+                <li><a href="Lore.html">LORE</a></li>
+                <li><button id="dropDownBtn" class="dropbtn">BOSSES</button>
+                    <div id="myDropdown" class="dropdown-content" >
+                      <a href="Sif.html">Sif</a>
+                      <a href="Kings.html">Four Kings</a>
+                      <a href="Artorias.html">Artorias</a>
+                      <a href="Kalameet.html">Kalameet</a>
+                      <a href="Manus.html">Manus</a>
+                    </div></li>
+                <li><a href="Quiz.html">QUIZ</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        </header>
+        <div id="bgimg">
+            <div id="contents">
+                <form id="contact">
+                        <!-- <h2>Contact Us</h2> -->
+                    <div id="contactForm">
+                        <label>Fill in your details:</label><br><br>
+                        <label>First Name: <input type="text" name="firstName"></label>
+                        <label>Last Name: <input type="text" name="lastName"></label><br><br>
+                        <label>Enter you email address: <input type="email"></label><br><br>
+                        <select>
+                            <option>Select option</option>
+                            <option>Question</option>
+                            <option>Comment</option>
+                            <option>Concern</option>
+                        </select> <br><br>
+                        <label> What is your Query?<br>
+                        <textarea type="text"></textarea>
+                        </label><br>
+                        <button type="button" id="contactBtn">Submit Query</button>
+                    </div>
+                    <p id="contactMsg" class="center"></p>
+                    <!-- <div id="more">
+                        <h2>more:</h2>
+                        <h3>check out this <a href="">FAQ</a>. for already answered questions <br> Our Staff will make sure to reply as soon as possible or smth</h3>
+                    </div> -->
+                </form>
+        </div>
+        </div>
+        <footer id="sitefooter">
+          <p>Made by Zainab Wadullah and Eric Geraghty * Copyright 2022 &copy;</p>
+        </footer>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

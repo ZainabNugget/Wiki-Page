@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Dark Souls</title>
+        <link href="style.css" rel="stylesheet" >
+        <!-- got from cdfonts.com -->
+        <link href="http://fonts.cdnfonts.com/css/optimus-princeps" rel="stylesheet"> 
+    </head>
+
+    <body id="container">
+      
+        <header id="header">
+            <h1><a href="index.html">DARK SOULS</a></h1>  
+            <nav id="navigation" >
+                <ul class="flexbox">
+                    <li><a href="Lore.html">LORE</a></li>
+                    <li><button id="dropDownBtn" class="dropbtn">BOSSES</button>
+                        <div id="myDropdown" class="dropdown-content" >
+                          <a href="Sif.html">Sif</a>
+                          <a href="Kings.html">Four Kings</a>
+                          <a href="Artorias.html">Artorias</a>
+                          <a href="Kalameet.html">Kalameet</a>
+                          <a href="Manus.html">Manus</a>
+                        </div></li>
+                    <li><a href="Quiz.html">QUIZ</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="bgimg">
+            <div id="contents">
+                <div id="quizTable" class="text, center">
+                    <h2>QUIZ TEST</h2>  
+                    <div id="intro">
+                    <p>Answer each question to the best of your knowledge.<br> Answers to each of the questions below can be found throughout the lore and boss pages.<br> GOOD LUCK!</p>
+                    </div>
+                    <form id="quiz">
+                        <div>
+                            <p>What is the name of the capitol city?</p>
+                            <input type="text" name="q1"><br> <!--Anor Londo-->
+                        </div>
+                        <div>
+                            <p>What is the name of Gwyns Lord Soul?</p>
+                            <input type="text" name="q2"><br> <!--Soul of Light-->
+                        </div>
+                        <div>
+                            <p>Who is Artorias' companion?</p>
+                            <input type="text" name="q3"><br> <!--Sif-->
+                        </div>
+                        <div>
+                            <p>Artorias, Gough, and Ornstein are each a member of Gwyns four knights. <br>What is the name of the last member?</p>
+                            <input type="text" name="q4"><br> <!--Ciaran-->
+                        </div>
+                        <div>
+                            <p>Who is the last Everlasting dragon?</p>
+                            <input type="text" name="q5"><br> <!--Kalameet-->
+                        </div>
+                        <div>
+                            <p>Who was in charge of hunting down the last dragons?</p>
+                            <input type="text" name="q6"><br> <!--Gough-->
+
+                        </div>
+                        <div>
+                            <p>Which lord took care of the dead?</p>
+                            <input type="text" name="q7"><br> <!--Nito-->
+                        </div>
+                        <div>
+                            <p>What city fell to the dark?</p>
+                            <input type="text" name="q8"><br><!--Oolacile-->
+                        </div>
+                        <div>
+                            <p>What damage is Kalameet weak too?</p>
+                            <input type="text" name="q9"><br> <!--Lightning-->
+                        </div>
+                        <div>
+                            <p>How many souls does Manus give the player upon being defeated?</p>
+                            <input type="text" name="q10"><br> <!--60,000-->
+                        </div><br> 
+                        <button type="button" id="submit">Finish Quiz</button><br>
+                    </form>
+                </div> 
+                <h2 id="result" class="center"></h2>
+        </div>
+        </div>
+        <footer id="sitefooter">
+          <p>Made by Zainab Wadullah and Eric Geraghty * Copyright 2022 &copy;</p>
+        </footer>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
